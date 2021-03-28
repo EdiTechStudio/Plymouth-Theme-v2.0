@@ -29,7 +29,7 @@ Now you gotta clone this repo in there.
 ```
 Don't assume the dot was added by mistake after the .git option. Now move the the content of output directory to the current directory:
 ```
-# mv ./output/* ../
+# mv ./output/* ./
 ```
 ## Step 3:
 Now let's complete the installation.
