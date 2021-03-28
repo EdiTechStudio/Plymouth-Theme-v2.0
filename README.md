@@ -51,7 +51,7 @@ Use the command:
  So are ready to rock! But hold on, there are things that you might want to recheck!
  If your transition of Plymouth theme isn't smooth, you might want to add this line in your /etc/initramfs-tools/confd folder
  ```
- echo "FRAMEBUFFER=y" > /etc/initramfs-tools/conf.d/splash
+ # echo "FRAMEBUFFER=y" > /etc/initramfs-tools/conf.d/splash
  ```
  Now update your initramfs again.
  ```
