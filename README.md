@@ -15,11 +15,11 @@ Now install `wget` in case you don't have it.
 ```
 Now let's download our theme package.
 ```
-wget -P ~/Downloads https://github.com/EdiTechStudio/Plymouth-Theme-v2.0/raw/main/glug-splash-screen-plymouth_2.0_x86_64.deb
+wget -P ~/Downloads https://github.com/EdiTechStudio/Plymouth-Theme-v2.0/raw/main/glug-splash-screen-plymouth_2.0_all.deb
 ```
 Now run the command
 ```
-dpkg -i ~/Downloads/glug-splash-screen-plymouth_2.0_x86_64.deb
+dpkg -i ~/Downloads/glug-splash-screen-plymouth_2.0_all.deb
 ```
  And you are done!
 
