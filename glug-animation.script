@@ -1,0 +1,19 @@
+# Image Loop
+for (i = 0; i < 110; i++)
+    glug_image[i] = Image("animation-"+i+".png");
+    screen_width = Window.GetWidth();
+    screen_height = Window.GetHeight();
+    full_screen_image[i] = glug_image[i].Scale(screen_width, screen_height);
+glug_sprite = Sprite();
+
+# Place in the frames in the center
+glug_sprite.SetX(screen_width / 2 - full_screen_image[1].GetWidth() / 2);
+glug_sprite.SetY(screen_height / 2 - full_screen_image[1].GetHeight() / 2);
+
+progress = 1;
+
+fun refresh_callback ()
+{
+    glug_sprite.SetImage(full_screen_image[Math.int(progress / 2) % 110]);
+    progress++;
+}
